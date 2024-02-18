@@ -1,33 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html{
+    scroll-behavior:smooth ;
+    --line-color: #e5e7eb;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.navbar{
+    backdrop-filter: blur(10px) !important;
+}
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
   }
+  .Experience::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bHAjAv,.hzItGr{
+    padding: 0 !important;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+
+@media (min-width:768px){
+    .experienceItem .item:nth-child(2){
+        flex-direction: row-reverse;
+    }
+    .experienceItem .item:nth-child(2) .date{
+        text-align: left !important;
+    }
 }
+@media (max-width:767px){
+    .experienceItem ul li .css-1oug4av-MuiTypography-root-MuiTimelineOppositeContent-root {
+        width: 100px !important;
+        background-color: red;
+
+    }
+}
+/* class=" " */
