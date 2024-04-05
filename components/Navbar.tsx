@@ -1,6 +1,4 @@
-/* eslint-disable react/jsx-key */
 "use client"
-import React from 'react'
 import {motion} from 'framer-motion'
 import { links } from '@/dummy/data'
 import Link from 'next/link'

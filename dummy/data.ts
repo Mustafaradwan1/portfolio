@@ -2,6 +2,7 @@ import React from 'react'
 import nike from '@/public/nike.png'
 import movie from '@/public/movie.png'
 import youTub from '@/public/youtub.png'
+import store from '@/public/store.png'
 import { AiFillBank } from "react-icons/ai";
 import { AiOutlineMedium } from "react-icons/ai";
 import { AiOutlineSlack } from "react-icons/ai";
@@ -40,6 +41,14 @@ export const projectsData = [
     tags: [ "Html", "Css", "Bootstrap", "Javascript","Swiper Slider"],
     imageUrl: nike,
     hach:'https://github.com/Mustafaradwan1/Nike'
+  },
+  {
+    title: "store",
+    description:
+      "In this e-commerce project. The user can create an account to purchase various products based on the quantity available in the stock..",
+    tags: ["React.js","Redux-toolkit","Tailwind css","Framer-motion","Formik and yup"," DummyJson Api"],
+    imageUrl: store,
+    hach:'https://e-commerce-app-nine-neon.vercel.app/'
   },
   {
     title: "Movies",

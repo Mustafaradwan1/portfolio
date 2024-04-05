@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 import ME1 from '@/public/me.png'
 import Image from 'next/image'
 import {motion} from 'framer-motion'
@@ -44,10 +43,8 @@ const Intro = () => {
           className=' mt-10 text-lg sm:text-2xl capitalize sm:px-10 leading-10 text-center'>
             <span className='font-bold'>hello, i'm mustafa. </span> 
             i'm a  {" "}
-            <span className='font-bold'> frontend developer </span> 
-            with {" "}
-            <span className='font-bold'>2 years </span> 
-            of experience. i enjoy building <span className='italic'>sites & apps</span> . my focus is {" "}
+            <span className='font-bold'> frontend developer .</span>  {" "}
+             i enjoy building <span className='italic'>sites & apps</span> . my focus is {" "}
             <span className='underline'>react (next.js)</span>
         </motion.h1>
         <motion.div
