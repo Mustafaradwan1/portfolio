@@ -60,7 +60,7 @@ const Intro = () => {
             setOnClick(Date.now());
           }}
           >contact me <FaLongArrowAltRight className='group-hover:translate-x-1' /></Link>
-          <a href='/Mustafa_Radwan_cv.pd' className='bg-white text-gray-900 
+          <a href='/Mustafa_Radwan_cv.pdf' className='bg-white text-gray-900 
           py-2 px-5 rounded-full flex items-center gap-2 group transition hover:scale-110 hover:bg-gray-900 hover:text-gray-200' download={true}>download cv <FaDownload className='group-hover:translate-y-1 ' /></a>
           <div className='flex gap-3'>
           <a href='https://www.linkedin.com/in/mustafa-radwan-09b260271/' target='_blank' className='p-3  hover:scale-110 transition bg-white rounded-full dark:text-gray-950' ><FaLinkedin /></a>
