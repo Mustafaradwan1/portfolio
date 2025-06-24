@@ -1,15 +1,17 @@
 import React from 'react'
 import nike from '@/public/nike.png'
+import ZobaM from '@/public/zobaM.png'
 import hotel from '@/public/hotel.png'
 import youTub from '@/public/youtub.png'
 import ultra from '@/public/ultra.png'
+import WysiwygEditor from '@/public/WysiwygEditor.png'
 import { AiFillBank } from "react-icons/ai";
 import { AiOutlineMedium } from "react-icons/ai";
 import { AiOutlineSlack } from "react-icons/ai";
 export const links = [
   {
     name: "Home",
-    hash: "#home",
+    hash: "/",
   },
   {
     name: "About",
@@ -35,17 +37,17 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Nike",
+    title: "ZobaM_Store",
     description:
-      "I worked as a frontEnd developer on this E-Commerce project. Users can purchase the latest products .",
-    tags: [ "Html", "Css", "Bootstrap", "Javascript","Swiper Slider"],
-    imageUrl: nike,
-    hach:'https://nike-lyart-two.vercel.app/'
+      "A multilingual e-commerce training project featuring login, search, filtering, and a user-specific cart. Fully custom-designed with a responsive UI and powered by DummyJSON API for mock product data.",
+    tags: [ "Next.js", "tailwind.css", "typescript","Api","Redux-toolkit","next-intl"],
+    imageUrl: ZobaM,
+    hach:'https://zoba-m-store.vercel.app/ar'
   },
   {
     title: "UltraSoft Solutions",
     description:
-      "The site provides comprehensive software solutions to simplify financial management and enhance business efficiency.",
+      "A multi-page website for an accounting services company, built for a client using Next.js and TypeScript. Each page highlights a specific service, with multilingual support and a clean, responsive UI.",
     tags: ["Next.js","typeScript","Tailwind css","Formik and yup","Api","next-intl"],
     imageUrl: ultra,
     hach:'https://ultra-solutions-six.vercel.app/en'
@@ -53,10 +55,18 @@ export const projectsData = [
   {
     title: "Hotel",
     description:
-      "Simple design that mimics a hotel website with attractive visual effects.",
+      "A single-page project simulating a hotel website with smooth animations using Framer Motion. Built with React and Tailwind CSS to practice motion effects and responsive design.",
     tags: ["React.js", "framer motion", "Tailwind"],
     imageUrl: hotel,
     hach:"https://hotel-task-two.vercel.app/"
+  },
+    {
+    title: "Nike",
+    description:
+      "A front-end e-commerce project inspired by Nike’s website, built with HTML, CSS, Bootstrap, and JavaScript. Includes features like filtering, cart, and user login using a free fake API.",
+    tags: [ "Html", "Css", "Bootstrap", "Javascript","Swiper Slider"],
+    imageUrl: nike,
+    hach:'https://nike-lyart-two.vercel.app/'
   },
   {
     title: "YoueTub clone",
@@ -66,6 +76,14 @@ export const projectsData = [
     imageUrl: youTub,
     hach:"https://github.com/Mustafaradwan1/youtubClone"
   },
+    {
+    title: "WysiwygEditor",
+    description:
+      " coding test project assigned by a company as part of their job interview process, to build a WYSIWYG editor using only draft.js without additional libraries. Implemented key concepts of controlled and uncontrolled components in React.",
+    tags: [ "Html", "Css", "Bootstrap", "Javascript","Swiper Slider"],
+    imageUrl: WysiwygEditor,
+    hach:'https://wysiwyg-editor-eta.vercel.app/'
+  }
 ];
 
 export const skillsData = [
