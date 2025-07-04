@@ -28,7 +28,7 @@ const ProjectData = ({title,description,tags,imageUrl,hach}: projectTs) => {
         <div className="info h-full flex flex-col justify-between lg:py-5 lg:pl-5  p-5 lg:w-1/2 ">
           <div>
             <h2 className='text-xl mb-3 font-bold'>{title}</h2>
-            <p className='dark:text-gray-400'>{description}</p>
+            <p className='dark:text-gray-400'>{description.slice(0,150)} {description.length > 150 && "..."}</p>
           </div>
           <div className='flex flex-wrap gap-2 mt-5'>
             {tags.map((sp:string,ind:number)=>(

@@ -37,28 +37,28 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "ZobaM_Store",
+    title: "Zento_Market",
     description:
       "A multilingual e-commerce training project featuring login, search, filtering, and a user-specific cart. Fully custom-designed with a responsive UI and powered by DummyJSON API for mock product data.",
     tags: [ "Next.js", "tailwind.css", "typescript","Api","Redux-toolkit","next-intl"],
     imageUrl: ZobaM,
-    hach:'https://zoba-m-store.vercel.app/ar'
+    hach:'https://zento-market.vercel.app/ar'
   },
   {
     title: "UltraSoft Solutions",
     description:
-      "A multi-page website for an accounting services company, built for a client using Next.js and TypeScript. Each page highlights a specific service, with multilingual support and a clean, responsive UI.",
+      "Built a multi-page, multilingual website using Next.js and TypeScript for an accounting and tech solutions company. The site showcases ERP services like sales, inventory, and finance with a clean, responsive UI.",
     tags: ["Next.js","typeScript","Tailwind css","Formik and yup","Api","next-intl"],
     imageUrl: ultra,
     hach:'https://ultra-solutions-six.vercel.app/en'
   },
   {
-    title: "Hotel",
+    title: "Serano-Place-Hotel",
     description:
-      "A single-page project simulating a hotel website with smooth animations using Framer Motion. Built with React and Tailwind CSS to practice motion effects and responsive design.",
+      "Built a modern, responsive single-page hotel website using React, Tailwind CSS, and Framer Motion. The site showcases hotel rooms, services, gallery, and client testimonials with smooth animations and a user-friendly interface",
     tags: ["React.js", "framer motion", "Tailwind"],
     imageUrl: hotel,
-    hach:"https://hotel-task-two.vercel.app/"
+    hach:"https://serano-place-hotel.vercel.app/"
   },
     {
     title: "Nike",
